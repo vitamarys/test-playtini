@@ -1,0 +1,40 @@
+@import "./variables";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  width: 1800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
